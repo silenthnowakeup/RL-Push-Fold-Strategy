@@ -1,0 +1,11 @@
+SEED = 42
+STACK_MIN = 10
+STACK_MAX = 50
+SB = 1
+BB = 2
+TRAIN_EPISODES = 1000
+TEST_EPISODES = 1000
+LR = 1e-4
+GAMMA = 0.99
+ACTOR_MODEL_PATH = './model/actor_model.weights.h5'
+CRITIC_MODEL_PATH = './model/critic_model.weights.h5'
